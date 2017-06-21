@@ -1,0 +1,146 @@
+
+/*-- banner-text --*/
+.banner-text {
+    padding: 0 0;
+}
+/*-- search --*/
+.agileits_search {
+    width: 70%;
+    margin: 0 0 0;
+}
+.agileits_search form {
+    border: 10px solid rgba(0, 0, 0, 0.55);
+}
+.agileits_search input[type="text"], #keyClass {
+    outline: none;
+    border:none;
+    background: #fff;
+    color: #999;
+    padding: 1.1em 1em;
+    font-size: 1em;
+    float: left;
+}
+.agileits_search input[type="text"]{
+	width: 57%; 
+}
+#keyClass {
+    width: 23%;
+    background: #e0e3e5;
+    padding: 1.1em 1em;
+    color: #555;
+}
+.agileits_search .submit {
+    outline: none;
+    border: none;
+    background: #fd463e;
+    color: #fff;
+    padding: 1.1em 1em;
+    font-size: 1em;
+    width: 20%;
+	-webkit-transition:.5s all;
+	-moz-transition:.5s all;
+	-o-transition:.5s all;
+	-ms-transition:.5s all;
+	transition:.5s all;
+}
+.agileits_search .submit:hover{
+	background:#f71d16;
+}
+option {
+    background: #fff;
+}
+/*-- //search --*/
+/*-- //banner-text --*/
+
+/*-- banner-page --*/  
+.banner-text h2 {
+    font-size: 0em;
+    color: #fff;
+    line-height: 1.3em;
+    letter-spacing: 1px;
+}
+
+@media(max-width:1280px){
+.banner-text {
+    padding: 11em 0;
+}
+}
+@media(max-width:1080px){
+.banner-text h2 {
+    font-size: 3.3em; 
+}
+
+.banner.about-w3bnr .banner-text {
+    padding: 4em 0;
+}
+.banner.about-w3bnr .banner-text h2 {
+    font-size: 2.8em;
+}
+}
+@media(max-width:1024px){
+.banner-text {
+    padding: 10em 0;
+}
+}
+@media(max-width:991px){
+.banner-text h2 {
+    font-size: 3em;
+}
+}
+@media(max-width:800px){
+.banner.about-w3bnr .banner-text h2 {
+    font-size: 2.3em;
+}
+}
+@media(max-width:768px){
+.banner-text {
+    padding: 8em 0;
+}
+.banner-text h2 {
+    font-size: 2.6em;
+}
+}
+
+@media(max-width:667px){
+.banner-text h2 {
+    font-size: 2em;
+}
+.banner-text {
+    padding: 6em 0;
+}
+
+.banner.about-w3bnr .banner-text h2 {
+    font-size: 2em;
+}
+}
+@media(max-width:414px){
+.banner-text h2 {
+    font-size: 1.8em;
+}
+.banner.about-w3bnr .banner-text h2 {
+    font-size: 1.5em;
+}
+.banner.about-w3bnr .banner-text {
+    padding: 2em 0;
+}
+}
+@media(max-width:375px){
+.banner-text {
+    padding: 4em 0;
+}
+.banner-text h2 {
+    font-size: 1.6em;
+}
+}
+@media(max-width:320px){
+.banner-text {
+    padding: 3em 0;
+}
+.banner-text h2 {
+    font-size: 1.4em;
+}
+.banner-text h2 span { 
+    font-size: .9em;
+}
+}
+/*-- //responsive-design --*/
